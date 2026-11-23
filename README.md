@@ -1,7 +1,5 @@
 # Harambe
 
----
-
 Harambe is a file-uploading platform designed for sharing media, links, and gathering reactions. Beneath its casual, approachable interface lies a capable and feature-rich system.
 
 By design, Harambe enforces a strict single-file policy: every post contains either one file or none. When multiple files are uploaded at once, they are automatically bundled into a single `.zip` archive.
