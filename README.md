@@ -2,13 +2,13 @@
 
 ---
 
-Harambe is a file uploading system, meant for users to share links, and get reactions.
+Harambe is a file-uploading platform designed for sharing media, links, and gathering reactions. Beneath its casual, approachable interface lies a capable and feature-rich system.
 
-It has a casual design and interface, but quite powerful and convenient, with many interesting features.
+By design, Harambe enforces a strict single-file policy: every post contains either one file or none. When multiple files are uploaded at once, they are automatically bundled into a single `.zip` archive.
 
-One policy by design is that there can only be one file. A post is always 1 or zero files. If multiple files are uploaded then all the files are automatically bundled into a `zip` archive.
+### Supported Embeds
 
-There are embeds for many types of media. Including:
+Harambe supports native embeds for a wide range of media types, including:
 
 - Image
 - Video
@@ -22,26 +22,22 @@ There are embeds for many types of media. Including:
 
 ---
 
-## Using Harambe for your own site
+## Self-Hosting & Configuration
 
-Harambe is easy configurable due to its flexible `config` system.
+Harambe is easily customizable through its flexible TOML configuration system. Tailoring an instance to your site—including its default theme, banners, and favicon—requires only a few adjustments to the configuration file.
 
-Configuring a special Harambe for your site simply requires setting some configs on a `toml` file. Including it's default theme, banners, and favicon.
-
-Then it's a matter of configuring apache/nginx/gunicorn properly, which is explained in the documentation.
+Once configured, deployment is a matter of setting up your web server stack (Apache, Nginx, and Gunicorn), as detailed in the documentation.
 
 ---
 
 ## Issues
 
-This repo can also serve as a way to report bugs you find.
+Please use this repository to report any bugs you encounter.
 
 ---
 
 ## Licensing
 
-Harambe is closed source, but we can reach an agreement for you to obtain a license.
+Harambe is proprietary software, and licenses are available for self-hosting. If you are interested in running your own Harambe instance, please get in touch to discuss licensing arrangements.
 
-If you're interested in running a Harambe instance contact me somehow.
-
-Email: contact@merkoba.com
+**Email:** contact@merkoba.com
