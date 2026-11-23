@@ -28,14 +28,14 @@ Once configured, deployment is a matter of setting up your web server stack (Apa
 
 ---
 
-## Issues
-
-Please use this repository to report any bugs you encounter.
-
----
-
 ## Licensing
 
 Harambe is proprietary software, and licenses are available for self-hosting. If you are interested in running your own Harambe instance, please get in touch to discuss licensing arrangements.
 
 **Email:** contact@merkoba.com
+
+---
+
+## Issues
+
+Please use this repository to report any bugs you encounter.
