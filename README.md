@@ -8,15 +8,16 @@ By design, Harambe enforces a strict single-file policy: every post contains eit
 
 Harambe supports native embeds for a wide range of media types, including:
 
-- Image
-- Video
-- Audio
-- Text
-- Doc
-- Talk
-- URL
-- Flash
-- Zip
+- Image Files
+- Video Files
+- Audio Files
+- Text Files
+- PDF Documents
+- Markdown Text
+- Discussions
+- URL Previews
+- Flash Files
+- Zip Archives
 
 ---
 
